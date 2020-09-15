@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+.conteiner {
+    width: 1798px;
+    margin: 0 auto;
+    color: #ffffff; 
+}
+
+.main-header {
+    height: 1032px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #cacaca;
+    background-image: url(img/bg_250.jpg);
+    border: 1px solid green;
+    background-position: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.central {
+    text-align: center;
+    margin-top: 165px;
+}
+
+.logo-img {
+    width: 442px;
+    height: 277px;
+}
+
+h1 {
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: Dosis;
+    font-size: 80px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #2f1946;
+}
+
+.fon_button {   
+width: 190px;
+height: 72px;
+border: 1px solid #81398b;
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+border-radius: 36px;
+margin: 0 auto;
+}
+.get:hover{  
+    background-color: #ff6c00;
+}
+
+.get {
+    width: 163px;
+    height: 50px;
+    background-color: #81398b;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: Dosis;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    word-break: break-all;
+    margin-top: 11px;
+}
+
+
+.arrow {
+    font-size: 22px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+}
+
+.block {
+    width: 235px;
+    height: 330px;
+    margin: 10px 10px 10px 10px;
+}
+
+.block1 {
+    background-color: #fe4a5d;
+}
+
+.block1_svg {
+    font-size: 10px;
+    fill: #fff;
+    width: 98px;
+    height: 96px;
+    margin-top: 65px;
+}
+
+.block2 {
+    background-color: #e22028;
+}
+
+.block3 {
+    background-color: #ff6c00;
+}
+
+aside {
+   height: 195px;
+    width: 50px;
+    position: absolute;
+    top:410px;
+    
+}
+.text_svg {
+   font-family: Dosis;
+font-size: 32px;
+line-height: 1.2;
+font-weight: 700;
+    margin-top: 100px;
+}
+.fas{
+   font-size: 50px;
+}
+.fab {
+    font-size: 50px;
+}
+
+
+
+.carusel {
+    height: 200px;
+    border: 1px solid red;
+}
+
+.join_now {
+    height: 300px;
+    border: 1px solid aqua;
+}
