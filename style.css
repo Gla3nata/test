@@ -431,10 +431,9 @@ aside {
 }
 .position-circle-flower {
     position: absolute;
-   top: 177px;
-    left: -64px;
-    border: 1px solid black;
-    transform: rotate(331deg);
+   top: 182px;
+    left: -56px;
+    transform: rotate(350deg);
 }
 
 .circle {
@@ -451,6 +450,10 @@ aside {
     background-color: #f9b416;
     align-items: center;
     position: relative;
+}
+.circle-flower:hover{
+    width: 200px;
+    height: 200px;
 }
 
 .circle-flower:after {
@@ -475,9 +478,9 @@ aside {
 }
 .position-circle-send {
     position: absolute;
-    top: 64px;
-    left: 350px;
-    transform: rotate(350deg);
+        top: 93px;
+    left: 359px;
+    transform: rotate(356deg);
 }
 .circle-send {
     width: 202px;
@@ -544,7 +547,6 @@ aside {
     position: absolute;
    top: 500px;
     left: 452px;
-    transform: rotate(331deg);
 }
 .circle-genders {
     width: 159px;
@@ -650,6 +652,12 @@ aside {
     color: #252525;
     background-color: #d1d1d1;
 }
+.position-circle-languages {
+    position: absolute;
+   top: 61px;
+    left: 1223px;
+    transform: rotate(3deg);
+}
 
 .circle-languages {
     width: 155px;
@@ -683,7 +691,12 @@ aside {
     opacity: 0.3;
     border: 1px solid #fff;
 }
-
+.position-circle-chat {
+    position: absolute;
+   top: 364px;
+    left: 1516px;
+    transform: rotate(3deg);
+}
 .circle-chat {
     width: 188px;
     height: 188px;
@@ -710,6 +723,12 @@ aside {
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+}
+.position-circle-present {
+    position: absolute;
+   top: 462px;
+    left: 1214px;
+    transform: rotate(350deg);
 }
 
 .circle-present {
@@ -740,7 +759,12 @@ aside {
     opacity: 0.3;
     border: 1px solid #fff;
 }
-
+.position-circle-bubbles {
+    position: absolute;
+   top: 92px;
+    left: 1713px;
+    transform: rotate(350deg);
+}
 .circle-bubbles {
     align-items: center;
     width: 133px;
