@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto;
 }
 
 a {
@@ -7,7 +7,7 @@ a {
 }
 
 .conteiner {
-    width: 1798px;
+    width: 1800px;
     margin: 0 auto;
     color: #ffffff;
     font-family: Dosis;
@@ -21,7 +21,6 @@ a {
     background-repeat: no-repeat;
     background-color: #cacaca;
     background-image: url(img/bg_250.jpg);
-    border: 1px solid green;
     background-position: center;
     box-sizing: border-box;
 }
@@ -106,29 +105,31 @@ h1 {
 }
 
 .social {
-    position: relative;
-}
-
-.box {
+    position: fixed;
+    top: 410px;
     height: 195px;
     width: 50px;
-    position: absolute;
-    top: 410px;
-    /*    background-color: #81398b;*/
+    height: 195px;
+    background-color: #45124c;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 0px 3px 3px 0px;
 }
+
+.social-links {
+    margin: 0 15px;
+/*    padding: 0 0 0 0;*/
+    font-size: 24px;
+    border-radius: 4px;
+        color: #fff;
+    line-height: 2;
+}
+
 
 .text_svg {
     font-size: 32px;
     line-height: 1.2;
     margin-top: 100px;
-}
 
-.fas {
-    font-size: 50px;
-}
-
-.fab {
-    font-size: 50px;
 }
 
 .quote-txt {
@@ -699,26 +700,25 @@ form div {}
     color: #fefefe;
 }
 
-.meta {
-    
-}
+.meta {}
 
-.meta-menu{
+.meta-menu {
     display: flex;
     list-style: none;
     justify-content: space-between;
     align-items: center;
-   min-height: 70px;
+    min-height: 70px;
     background-color: #fafafa;
     border-radius: 0.5px;
     width: 100%;
-text-transform: uppercase;
-color: #2f1946;
-text-decoration: none;
-border: 1px solid yellow;
+    text-transform: uppercase;
+    color: #2f1946;
+    text-decoration: none;
+    border: 1px solid yellow;
 }
- .s {
-     text-transform: none;
+
+.s {
+    text-transform: none;
 }
 
 .meta span {}
@@ -735,7 +735,8 @@ border: 1px solid yellow;
 
 .copyright-txt {
     font-family: Lato;
-font-size: 12px;
-line-height: 24px;
-font-weight: 400;
-color: #2f1946;}
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #2f1946;
+}
