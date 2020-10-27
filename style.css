@@ -429,7 +429,7 @@ aside {
     justify-content: center;
     position: relative
 }
-.position {
+.position-circle-flower {
     position: absolute;
    top: 177px;
     left: -64px;
@@ -473,7 +473,12 @@ aside {
     height: 82px;
     fill: #fff;
 }
-
+.position-circle-send {
+    position: absolute;
+    top: 64px;
+    left: 350px;
+    transform: rotate(350deg);
+}
 .circle-send {
     width: 202px;
     height: 201px;
@@ -499,6 +504,12 @@ aside {
 .text-circle-send {
     font-size: 32.1px;
     text-transform: uppercase;
+}
+.position-circle-like {
+    position: absolute;
+   top: 399px;
+    left: 138px;
+    transform: rotate(350deg);
 }
 
 .circle-like {
@@ -529,7 +540,12 @@ aside {
     height: 42px;
     fill: #fff;
 }
-
+.position-circle-genders {
+    position: absolute;
+   top: 500px;
+    left: 452px;
+    transform: rotate(331deg);
+}
 .circle-genders {
     width: 159px;
     height: 159px;
