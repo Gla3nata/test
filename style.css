@@ -161,6 +161,7 @@ h1 {
     line-height: 1.2;
     font-weight: 700;
     color: #ffffff;
+    outline: none;
 }
 
 .arrow {
@@ -452,8 +453,7 @@ aside {
     position: relative;
 }
 .circle-flower:hover{
-    width: 200px;
-    height: 200px;
+    transform: scale(1.2);
 }
 
 .circle-flower:after {
@@ -487,6 +487,9 @@ aside {
     height: 201px;
     background-color: #ff6c00;
     position: relative;
+}
+.circle-send:hover{
+    transform: scale(1.2);
 }
 
 .circle-send:after {
@@ -522,7 +525,9 @@ aside {
     align-items: center;
     position: relative;
 }
-
+.circle-like:hover{
+    transform: scale(1.2);
+}
 .circle-like:after {
     content: "";
     display: block;
@@ -553,6 +558,9 @@ aside {
     height: 159px;
     background-color: #f9b416;
     position: relative;
+}
+.circle-genders:hover{
+    transform: scale(1.2);
 }
 
 .circle-genders:after {
@@ -588,6 +596,9 @@ aside {
     background-color: #fff;
     margin: 180px 0 0 0;
     position: relative;
+}
+.circle-join:hover{
+    transform: scale(1.2);
 }
 
 .circle-join:after {
@@ -664,6 +675,9 @@ aside {
     height: 155px;
     background-color: #fe4a5d;
 }
+.circle-languages:hover{
+    transform: scale(1.2);
+}
 
 .text-circle-27 {
     font-size: 40px;
@@ -704,6 +718,10 @@ aside {
     position: relative;
 }
 
+.circle-chat:hover{
+    transform: scale(1.2);
+}
+
 .circle-chat:after {
     content: "";
     display: block;
@@ -738,6 +756,9 @@ aside {
     align-items: center;
     position: relative;
 }
+.circle-present:hover{
+    transform: scale(1.2);
+}
 
 .present {
     width: 46px;
@@ -771,6 +792,9 @@ aside {
     height: 133px;
     background-color: #f9b416;
     position: relative;
+}
+.circle-bubbles:hover{
+    transform: scale(1.2);
 }
 
 .circle-bubbles:after {
