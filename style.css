@@ -169,7 +169,7 @@ h1 {
 .blocks {
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .block {
@@ -261,10 +261,35 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.first-photo {
+    margin: 87px 0 27px 0;
+}
+.second-photo {
+      margin: 15px 0 0 0;
+}
+.third-photo {
+   
+}
+.fourth-photo {
+    margin-top: -100px;
+}
+
+.first-foto {
+    margin: 28px 0 27px 0;
+}
+.second-foto {
+}
+.third-foto {
+}
+.fourth-foto {
+    margin-top: -100px;
+}
+
 
 .feedback {
     display: flex;
     justify-content: center;
+        padding: 0 40px;
 }
 
 .back-color {
