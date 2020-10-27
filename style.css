@@ -870,6 +870,10 @@ fieldset {
     letter-spacing: 0.05em;
     color: #fefefe;
 }
+.subscribe:hover {
+    background-color: #fefefe ;
+    color: #00cfae;
+}
 
 .meta {
     background-color: #fafafa;
