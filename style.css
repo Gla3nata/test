@@ -14,34 +14,33 @@ a {
     font-family: Dosis;
     line-height: 1.2;
     font-weight: 700;
-     border: 1px solid blue;
+    border: 1px solid blue;
 }
 
 .main-header {
     height: 1032px;
-      background-color: #cacaca;
+    background-color: #cacaca;
     background-image: url(img/bg_250.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     box-sizing: border-box;
-     border: 1px solid pink;
+    border: 1px solid pink;
 }
 
 nav {
-  text-align: end;
-    margin: 30px 110px 0 0;  
-     position: relative;
+    text-align: end;
+    margin: 30px 110px 0 0;
+    position: relative;
 }
 
 .menu-name {
-font-size: 18px;
-text-transform: uppercase;
-color: #2f1946;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2f1946;
 }
-.hamburger-menu {
-   
-}
+
+.hamburger-menu {}
 
 #menu__toggle {
     opacity: 0;
@@ -65,7 +64,7 @@ color: #2f1946;
     display: flex;
     align-items: center;
     position: absolute;
-   top: -9px;
+    top: -9px;
     right: -40px;
     width: 30px;
     height: 30px;
@@ -94,8 +93,6 @@ color: #2f1946;
     top: 8px;
 }
 
-
-
 .social {
     position: fixed;
     top: 410px;
@@ -116,13 +113,11 @@ color: #2f1946;
     line-height: 2;
 }
 
-
-.central {
+.title {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 1032px;
     box-sizing: border-box;
 }
 
@@ -172,9 +167,6 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 84px;
-
-
-
 }
 
 .block {
@@ -207,15 +199,13 @@ h1 {
     box-shadow: 0 110px 0 #e56100;
 }
 
-
 .text_svg {
     font-size: 32px;
     line-height: 1.2;
     padding-top: 75px;
-
 }
 
-.сentre {
+.сentral {
     font-size: 30px;
     line-height: 36px;
     color: #2f1946;
