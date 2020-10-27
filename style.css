@@ -24,10 +24,34 @@ a {
     background-position: center;
     box-sizing: border-box;
 }
+.social {
+    position: fixed;
+    top: 410px;
+    height: 195px;
+    width: 50px;
+    height: 195px;
+    background-color: #45124c;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 0px 3px 3px 0px;
+}
+
+.social-links {
+    margin: 0 15px;
+/*    padding: 0 0 0 0;*/
+    font-size: 24px;
+    border-radius: 4px;
+        color: #fff;
+    line-height: 2;
+}
+
 
 .central {
     text-align: center;
-    margin-top: 165px;
+        display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    min-height: 1032px;
+    box-sizing: border-box;
 }
 
 .logo-img {
@@ -76,16 +100,21 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 84px;
+
+
+
 }
 
 .block {
-    width: 235px;
-    height: 330px;
+    width: 220px;
+    height: 235px;
     margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
 }
 
 .block1 {
     background-color: #fe4a5d;
+    box-shadow: 0 110px 0 #e44254;
 }
 
 .block1_svg {
@@ -98,38 +127,35 @@ h1 {
 
 .block2 {
     background-color: #e22028;
+     box-shadow: 0 110px 0 #cb1d24;
 }
 
 .block3 {
     background-color: #ff6c00;
-}
-
-.social {
-    position: fixed;
-    top: 410px;
-    height: 195px;
-    width: 50px;
-    height: 195px;
-    background-color: #45124c;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
-    border-radius: 0px 3px 3px 0px;
-}
-
-.social-links {
-    margin: 0 15px;
-/*    padding: 0 0 0 0;*/
-    font-size: 24px;
-    border-radius: 4px;
-        color: #fff;
-    line-height: 2;
+     box-shadow: 0 110px 0 #e56100;
 }
 
 
 .text_svg {
     font-size: 32px;
     line-height: 1.2;
-    margin-top: 100px;
+    padding-top: 75px;
 
+}
+.сentre {
+    font-size: 30px;
+    line-height: 36px;
+    color: #2f1946;
+    text-align: center;
+    border: 1px solid yellow;
+    width: 820px;
+    height: 240px;
+   margin: 220px auto 50px auto;
+}
+.welcome {
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
 }
 
 .quote-txt {
@@ -146,14 +172,7 @@ h2 {
     line-height: 1.2;
     color: #2f1946;
     text-align: center;
-    margin-top: 255px;
-}
-
-.quote {
-    font-size: 30px;
-    line-height: 36px;
-    color: #2f1946;
-    text-align: center;
+    margin: 0;
 }
 
 .signature {
@@ -161,7 +180,6 @@ h2 {
     line-height: 36px;
     color: #fe4a5d;
     text-align: right;
-    width: 80%;
 }
 
 .fotos {
@@ -699,13 +717,10 @@ form div {}
     letter-spacing: 0.05em;
     color: #fefefe;
 }
-
-.meta {}
-
 .meta-menu {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 70px;
     background-color: #fafafa;
