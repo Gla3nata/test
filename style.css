@@ -172,14 +172,13 @@ h1 {
 .blocks {
     display: flex;
     justify-content: center;
-    margin-top: 84px;
+    margin-top: 58px;
 }
 
 .block {
-    width: 220px;
-    height: 235px;
-    margin: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+   width: 13%;
+    height: 238px;
+    margin: 0px 20px;
 }
 
 .block1 {
@@ -192,7 +191,7 @@ h1 {
     fill: #fff;
     width: 98px;
     height: 96px;
-    margin-top: 65px;
+    margin-top: 83px;
 }
 
 .block2 {
@@ -219,7 +218,7 @@ h1 {
     border: 1px solid yellow;
     width: 820px;
     height: 240px;
-    margin: 220px auto 50px auto;
+    margin: 237px auto 50px auto;
 }
 
 .welcome {
@@ -230,6 +229,7 @@ h1 {
 
 .quote-txt {
     border: 1px solid red;
+    margin: 0;
 }
 
 .txt-centr {
