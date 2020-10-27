@@ -648,6 +648,10 @@ aside {
     background-color: #e22028;
     background-image: linear-gradient(90.0deg, #e22028 0%, #f9b416 100%);
     border-radius: 3px;
+        position: absolute;
+    z-index: 2;
+    top: 264px;
+    left: 113px;
 }
 
 .btn-link-txt {
@@ -655,12 +659,12 @@ aside {
 }
 
 .link-btn:hover {
-    color: #d1d1d1;
-    background-color: #736357;
+    color: #45124c;
+    background-color: #fe4a5d;
 }
 
 .link-btn:active {
-    color: #252525;
+    color: #f9b416;
     background-color: #d1d1d1;
 }
 .position-circle-languages {
@@ -708,7 +712,7 @@ aside {
 .position-circle-chat {
     position: absolute;
    top: 364px;
-    left: 1516px;
+    left: 1486px;
     transform: rotate(3deg);
 }
 .circle-chat {
@@ -819,9 +823,8 @@ aside {
 }
 
 footer {
-    border: 1px solid green;
-    background-color: skyblue;
     min-height: 200px;
+    margin: 10px 0 0 0;
 }
 
 fieldset {
@@ -836,7 +839,7 @@ fieldset {
 }
 
 .email {
-    width: 376px;
+    width: 240px;
     height: 40px;
     background-color: #fff;
     border: 1px solid #cdcdcd;
@@ -879,10 +882,10 @@ fieldset {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    margin: 0 auto;
+    margin: 20px auto;
     align-items: center;
     min-height: 70px;
-    width: 46%;
+    width: 55%;
     text-transform: uppercase;
     color: #2f1946;
     text-decoration: none;
@@ -892,7 +895,9 @@ fieldset {
 .s {
     text-transform: none;
 }
-
+.flag{
+    padding-left: 3px;
+}
 .flags {
     text-align: center;
     margin: 0 0 0 0;
