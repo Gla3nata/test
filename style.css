@@ -715,7 +715,7 @@ form div {}
 text-transform: uppercase;
 color: #2f1946;
 text-decoration: none;
-
+border: 1px solid yellow;
 }
  .s {
      text-transform: none;
@@ -723,8 +723,19 @@ text-decoration: none;
 
 .meta span {}
 
-.flags {}
+.flags {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
 
-div {}
+.copyright {
+    text-align: center;
+}
 
-div span {}
+.copyright-txt {
+    font-family: Lato;
+font-size: 12px;
+line-height: 24px;
+font-weight: 400;
+color: #2f1946;}
