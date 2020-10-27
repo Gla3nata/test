@@ -161,7 +161,6 @@ h1 {
     color: #ffffff;
 }
 
-
 .arrow {
     font-size: 22px;
 }
@@ -169,7 +168,7 @@ h1 {
 .blocks {
     display: flex;
     justify-content: center;
-    margin-top: 58px;
+    margin-top: 90px;
 }
 
 .block {
@@ -283,7 +282,6 @@ h2 {
     width: 96%;
     background-color: #fff;
     min-height: 534px;
-
 }
 
 h3 {
@@ -723,13 +721,9 @@ footer {
     min-height: 200px;
 }
 
-form {}
-
 fieldset {
     text-align: center;
 }
-
-form div {}
 
 .sign {
     font-size: 16px;
@@ -758,7 +752,6 @@ form div {}
     font-weight: 400;
     color: #cacaca;
 }
-
 
 .subscribe {
     width: 135px;
@@ -796,8 +789,6 @@ form div {}
 .s {
     text-transform: none;
 }
-
-.meta span {}
 
 .flags {
     text-align: center;
