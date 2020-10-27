@@ -874,8 +874,6 @@ fieldset {
 .meta {
     background-color: #fafafa;
     border-radius: 0.5px;
-    border: 1px solid yellow;
-
 }
 
 .meta-menu {
@@ -895,12 +893,13 @@ fieldset {
 .s {
     text-transform: none;
 }
-.flag{
-    padding-left: 3px;
-}
+
+.flag {
+    padding-left: 8px;
+    }
 .flags {
     text-align: center;
-    margin: 0 0 0 0;
+    margin: -3px 0 30px 0;
     padding: 0 0 0 0;
 }
 
