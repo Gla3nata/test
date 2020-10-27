@@ -1,6 +1,5 @@
 body {
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 a {
@@ -14,7 +13,6 @@ a {
     font-family: Dosis;
     line-height: 1.2;
     font-weight: 700;
-    border: 1px solid blue;
 }
 
 .main-header {
@@ -25,7 +23,6 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     box-sizing: border-box;
-    border: 1px solid pink;
 }
 
 nav {
@@ -164,7 +161,6 @@ h1 {
     color: #ffffff;
 }
 
-
 .arrow {
     font-size: 22px;
 }
@@ -172,7 +168,7 @@ h1 {
 .blocks {
     display: flex;
     justify-content: center;
-    margin-top: 58px;
+    margin-top: 90px;
 }
 
 .block {
@@ -207,7 +203,7 @@ h1 {
 .text_svg {
     font-size: 32px;
     line-height: 1.2;
-    padding-top: 75px;
+    padding-top: 55px;
 }
 
 .сentral {
@@ -215,24 +211,21 @@ h1 {
     line-height: 36px;
     color: #2f1946;
     text-align: center;
-    border: 1px solid yellow;
     width: 820px;
     height: 240px;
-    margin: 237px auto 50px auto;
+    margin: 237px auto 17px auto;
 }
 
 .welcome {
     display: flex;
     justify-content: center;
-    border: 1px solid green;
 }
 
 .quote {
-    margin-top: 29px
+    margin-top: 40px
 }
 
 .quote-txt {
-    border: 1px solid red;
     margin: 0;
 }
 
@@ -261,36 +254,12 @@ h2 {
     display: flex;
 }
 
-.fotos .foto_people {
+.foto_people {
     width: 35%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
-
-.fotos img {}
-
-/*
-.foto1 {
-    width: 254px;
-   background-image: url(img/twain/bg_189.jpg);
-        border: 6px solid black;
-    min-height: 200px;
-    
-}
-.foto2 {
-     width: 254px;
-   background-image: url(img/twain/bg_193.jpg);
-}
-.foto3 {
-     width: 343px;
-   background-image: url(img/twain/bg_201.jpg);
-}
-.foto4 {
-     width: 343px;
-   background-image: url(img/twain/bg_197.jpg);
-}
-*/
-
 
 .feedback {
     display: flex;
@@ -313,7 +282,6 @@ h2 {
     width: 96%;
     background-color: #fff;
     min-height: 534px;
-
 }
 
 h3 {
@@ -329,16 +297,21 @@ h3 {
     border-radius: 4px;
     text-align: center;
     place-self: center;
-    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    font-family: Dosis;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #fff;
 }
 
 .sing .fab {
     font-size: 16px;
     letter-spacing: 1em;
 }
-
 
 .or {
     overflow: hidden;
@@ -383,31 +356,35 @@ input {
     place-self: center;
 }
 
-input::-webkit-input-placeholder {
+.input-form::placeholder {
     font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #642f6b;
+    font-family: Dosis;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
     letter-spacing: 0.05em;
     color: #642f6b;
 }
 
-input::-moz-placeholder {
-    font-size: 16px;
+.sub {
+    min-height: 41px;
+    width: 300px;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #642f6b;
-}
+    font-family: Dosis;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #fff;
 
-/* Firefox 19+ */
-input:-moz-placeholder {
-    font-size: 16px;
-    letter-spacing: 0.05em;
-    color: #642f6b;
-    ;
-}
-
-/* Firefox 18- */
-input:-ms-input-placeholder {
-    font-size: 16px;
-    letter-spacing: 0.05em;
-    color: #642f6b;
+    background-color: #81398b;
+    border-radius: 4px;
 }
 
 aside {
@@ -744,13 +721,9 @@ footer {
     min-height: 200px;
 }
 
-form {}
-
 fieldset {
     text-align: center;
 }
-
-form div {}
 
 .sign {
     font-size: 16px;
@@ -780,7 +753,6 @@ form div {}
     color: #cacaca;
 }
 
-
 .subscribe {
     width: 135px;
     height: 40px;
@@ -792,31 +764,31 @@ form div {}
     letter-spacing: 0.05em;
     color: #fefefe;
 }
+
 .meta {
     background-color: #fafafa;
     border-radius: 0.5px;
     border: 1px solid yellow;
-     
+
 }
+
 .meta-menu {
-   display: flex;
-     justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
     list-style: none;
-   margin: 0 auto;
+    margin: 0 auto;
     align-items: center;
     min-height: 70px;
     width: 46%;
     text-transform: uppercase;
     color: #2f1946;
     text-decoration: none;
-    
+
 }
 
 .s {
     text-transform: none;
 }
-
-.meta span {}
 
 .flags {
     text-align: center;
