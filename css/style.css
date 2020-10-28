@@ -1,13 +1,5 @@
 body {
-    margin: 0 auto;
-}
-
-a {
-    text-decoration: none;
-}
-
-.conteiner {
-    width: 1800px;
+     width: 1800px;
     margin: 0 auto;
     color: #ffffff;
     font-family: Dosis;
@@ -15,10 +7,18 @@ a {
     font-weight: 700;
 }
 
+a {
+    text-decoration: none;
+}
+
+.conteiner {
+   
+}
+
 .main-header {
     height: 1032px;
     background-color: #cacaca;
-    background-image: url(img/bg_250.jpg);
+    background-image: url(../img/bg_250.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -99,12 +99,11 @@ nav {
     background-color: #45124c;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
     border-radius: 0px 3px 3px 0px;
-        z-index: 1;
+    z-index: 1;
 }
 
 .social-links {
     margin: 0 15px;
-    /*    padding: 0 0 0 0;*/
     font-size: 24px;
     border-radius: 4px;
     color: #fff;
@@ -257,23 +256,23 @@ h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 160px;
-  width: 100%;
-  min-height: 552px;
-  background-image: url(img/twain/bg_189.jpg),
-                    url(img/twain/bg_201.jpg),
-                    url(img/twain/bg_193.jpg),
-                    url(img/twain/bg_197.jpg),
-                    url(img/twain/bg_170.jpg),
-                    url(img/twain/bg_183.jpg),
-                    url(img/twain/bg_174.jpg),
-                    url(img/twain/bg_180.jpg);
-background-repeat: no-repeat;
-  background-size: 14%, 19%, 14%, 19%, 17%, 16%, 17%, 16%;
-  background-position: 0px 82px, 280px 16px, 0px 315px, 283px 230px, 1170px 38px, 1504px 0px, 1170px 326px, 1506px 212px;
+    width: 100%;
+    min-height: 552px;
+    background-image: url(../img/twain/bg_189.jpg),
+        url(../img/twain/bg_201.jpg),
+        url(../img/twain/bg_193.jpg),
+        url(../img/twain/bg_197.jpg),
+        url(../img/twain/bg_170.jpg),
+        url(../img/twain/bg_183.jpg),
+        url(../img/twain/bg_174.jpg),
+        url(../img/twain/bg_180.jpg);
+    background-repeat: no-repeat;
+    background-size: 14%, 19%, 14%, 19%, 17%, 16%, 17%, 16%;
+    background-position: 0px 82px, 280px 16px, 0px 315px, 283px 230px, 1170px 38px, 1504px 0px, 1170px 326px, 1506px 212px;
 }
 
 .feedback {
-       width: 22%;
+    width: 22%;
     display: flex;
     justify-content: center;
     border: 10px solid transparent;
@@ -401,14 +400,15 @@ aside {
     box-sizing: border-box;
     height: 730px;
     background-color: palevioletred;
-    background-image: url(img/bg_1_80.png);
+    background-image: url(../img/bg_1_80.png);
     display: flex;
     justify-content: center;
     position: relative
 }
+
 .position-circle-flower {
     position: absolute;
-   top: 182px;
+    top: 182px;
     left: -56px;
     transform: rotate(350deg);
 }
@@ -428,7 +428,8 @@ aside {
     align-items: center;
     position: relative;
 }
-.circle-flower:hover{
+
+.circle-flower:hover {
     transform: scale(1.2);
 }
 
@@ -452,19 +453,22 @@ aside {
     height: 82px;
     fill: #fff;
 }
+
 .position-circle-send {
     position: absolute;
-        top: 93px;
+    top: 93px;
     left: 359px;
     transform: rotate(356deg);
 }
+
 .circle-send {
     width: 202px;
     height: 201px;
     background-color: #ff6c00;
     position: relative;
 }
-.circle-send:hover{
+
+.circle-send:hover {
     transform: scale(1.2);
 }
 
@@ -487,9 +491,10 @@ aside {
     font-size: 32.1px;
     text-transform: uppercase;
 }
+
 .position-circle-like {
     position: absolute;
-   top: 399px;
+    top: 399px;
     left: 138px;
     transform: rotate(350deg);
 }
@@ -501,9 +506,11 @@ aside {
     align-items: center;
     position: relative;
 }
-.circle-like:hover{
+
+.circle-like:hover {
     transform: scale(1.2);
 }
+
 .circle-like:after {
     content: "";
     display: block;
@@ -524,18 +531,21 @@ aside {
     height: 42px;
     fill: #fff;
 }
+
 .position-circle-genders {
     position: absolute;
-   top: 500px;
+    top: 500px;
     left: 452px;
 }
+
 .circle-genders {
     width: 159px;
     height: 159px;
     background-color: #f9b416;
     position: relative;
 }
-.circle-genders:hover{
+
+.circle-genders:hover {
     transform: scale(1.2);
 }
 
@@ -573,7 +583,8 @@ aside {
     margin: 180px 0 0 0;
     position: relative;
 }
-.circle-join:hover{
+
+.circle-join:hover {
     transform: scale(1.2);
 }
 
@@ -624,7 +635,7 @@ aside {
     background-color: #e22028;
     background-image: linear-gradient(90.0deg, #e22028 0%, #f9b416 100%);
     border-radius: 3px;
-        position: absolute;
+    position: absolute;
     z-index: 2;
     top: 264px;
     left: 113px;
@@ -643,9 +654,10 @@ aside {
     color: #f9b416;
     background-color: #d1d1d1;
 }
+
 .position-circle-languages {
     position: absolute;
-   top: 61px;
+    top: 61px;
     left: 1223px;
     transform: rotate(3deg);
 }
@@ -655,7 +667,8 @@ aside {
     height: 155px;
     background-color: #fe4a5d;
 }
-.circle-languages:hover{
+
+.circle-languages:hover {
     transform: scale(1.2);
 }
 
@@ -685,12 +698,14 @@ aside {
     opacity: 0.3;
     border: 1px solid #fff;
 }
+
 .position-circle-chat {
     position: absolute;
-   top: 364px;
+    top: 364px;
     left: 1486px;
     transform: rotate(3deg);
 }
+
 .circle-chat {
     width: 188px;
     height: 188px;
@@ -698,7 +713,7 @@ aside {
     position: relative;
 }
 
-.circle-chat:hover{
+.circle-chat:hover {
     transform: scale(1.2);
 }
 
@@ -722,9 +737,10 @@ aside {
     line-height: 28px;
     text-transform: uppercase;
 }
+
 .position-circle-present {
     position: absolute;
-   top: 462px;
+    top: 462px;
     left: 1214px;
     transform: rotate(350deg);
 }
@@ -736,7 +752,8 @@ aside {
     align-items: center;
     position: relative;
 }
-.circle-present:hover{
+
+.circle-present:hover {
     transform: scale(1.2);
 }
 
@@ -760,12 +777,14 @@ aside {
     opacity: 0.3;
     border: 1px solid #fff;
 }
+
 .position-circle-bubbles {
     position: absolute;
-   top: 92px;
+    top: 92px;
     left: 1713px;
     transform: rotate(350deg);
 }
+
 .circle-bubbles {
     align-items: center;
     width: 133px;
@@ -773,7 +792,8 @@ aside {
     background-color: #f9b416;
     position: relative;
 }
-.circle-bubbles:hover{
+
+.circle-bubbles:hover {
     transform: scale(1.2);
 }
 
@@ -805,6 +825,7 @@ footer {
 
 fieldset {
     text-align: center;
+    border: none;
 }
 
 .sign {
@@ -846,8 +867,9 @@ fieldset {
     letter-spacing: 0.05em;
     color: #fefefe;
 }
+
 .subscribe:hover {
-    background-color: #fefefe ;
+    background-color: #fefefe;
     color: #00cfae;
 }
 
@@ -876,7 +898,8 @@ fieldset {
 
 .flag {
     padding-left: 8px;
-    }
+}
+
 .flags {
     text-align: center;
     margin: -3px 0 30px 0;
