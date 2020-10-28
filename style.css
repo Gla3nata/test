@@ -259,8 +259,6 @@ h2 {
     margin-bottom: 160px;
   width: 100%;
   min-height: 552px;
-  border: 1px solid;
-  
   background-image: url(img/twain/bg_189.jpg),
                     url(img/twain/bg_201.jpg),
                     url(img/twain/bg_193.jpg),
@@ -271,53 +269,16 @@ h2 {
                     url(img/twain/bg_180.jpg);
 background-repeat: no-repeat;
   background-size: 14%, 19%, 14%, 19%, 17%, 16%, 17%, 16%;
-  
   background-position: 0px 82px, 280px 16px, 0px 315px, 283px 230px, 1170px 38px, 1504px 0px, 1170px 326px, 1506px 212px;
 }
-.foto_people {
-    width: 35%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.first-photo {
-    margin: 87px 0 27px 0;
-}
-
-.second-photo {
-    margin: 15px 0 0 0;
-}
-
-.third-photo {}
-
-.fourth-photo {
-    margin-top: -100px;
-}
-
-.first-foto {
-    margin: 28px 0 27px 0;
-}
-
-.second-foto {}
-
-.third-foto {}
-
-.fourth-foto {
-    margin-top: -100px;
-}
-
 
 .feedback {
+       width: 22%;
     display: flex;
     justify-content: center;
-    padding: 0 40px;
-}
-
-.back-color {
-    background-image: url(img/bg_156.png);
-    width: 466px;
-    min-height: 552px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(90.0deg, #e22028 0%, #f9b416 100%);
+    border-image-slice: 1;
 }
 
 .feedback-form {
@@ -437,7 +398,6 @@ input {
 
 aside {
     width: 100%;
-    border: 1px solid blue;
     box-sizing: border-box;
     height: 730px;
     background-color: palevioletred;
