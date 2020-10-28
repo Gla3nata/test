@@ -1,8 +1,19 @@
+@font-face {
+    font-family: dosis-bold;
+    src: url(../fonts/dosis-bold.ttf);
+}
+
+@font-face {
+    font-family: lato-regular;
+    src: url(../fonts/lato-regular.ttf);
+}
+
+
 body {
      width: 1800px;
     margin: 0 auto;
     color: #ffffff;
-    font-family: Dosis;
+    font-family: 'dosis-bold', 'arial', sans-serif;
     line-height: 1.2;
     font-weight: 700;
 }
@@ -155,7 +166,7 @@ h1 {
     border-radius: 25px;
     word-break: break-all;
     margin-top: 11px;
-    font-family: Dosis;
+    font-family: 'dosis-bold', 'arial', sans-serif;
     font-size: 18px;
     line-height: 1.2;
     font-weight: 700;
@@ -236,7 +247,7 @@ h1 {
 }
 
 h2 {
-    font-family: Dosis;
+    font-family: 'dosis-bold', 'arial', sans-serif;
     font-size: 52px;
     line-height: 1.2;
     color: #2f1946;
@@ -272,7 +283,7 @@ h2 {
 }
 
 .feedback {
-    width: 22%;
+    width: 25%;
     display: flex;
     justify-content: center;
     border: 10px solid transparent;
@@ -307,7 +318,7 @@ h3 {
     place-self: center;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    font-family: Dosis;
+    font-family: 'dosis-bold', 'arial', sans-serif;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 700;
@@ -368,7 +379,7 @@ input {
     font-size: 16px;
     letter-spacing: 0.05em;
     color: #642f6b;
-    font-family: Dosis;
+    font-family: 'dosis-bold', 'arial', sans-serif;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 700;
@@ -383,7 +394,7 @@ input {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    font-family: Dosis;
+    font-family: 'dosis-bold', 'arial', sans-serif;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 700;
@@ -849,7 +860,7 @@ fieldset {
     display: block;
     padding: 5px;
     word-break: breal-all;
-    font-family: Lato;
+    font-family: 'lato-regular', 'arial', sans-serif;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
@@ -861,7 +872,7 @@ fieldset {
     height: 40px;
     background-color: #00cfae;
     border-radius: 0px 4px 4px 0px;
-    font-family: Lato;
+    font-family: 'lato-regular', 'arial', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -911,7 +922,7 @@ fieldset {
 }
 
 .copyright-txt {
-    font-family: Lato;
+    font-family: 'lato-regular', 'arial', sans-serif;
     font-size: 12px;
     line-height: 24px;
     font-weight: 400;
