@@ -270,9 +270,9 @@ h2 {
                     url(img/twain/bg_174.jpg),
                     url(img/twain/bg_180.jpg);
 background-repeat: no-repeat;
-  background-size: 14%, 19%, 14%, 19%, 19%, 14%, 19%, 19%;
+  background-size: 14%, 19%, 14%, 19%, 17%, 16%, 17%, 16%;
   
-  background-position: 0px 60px, 280px 16px, 0px 273px, 283px 230px, 1200px 0px, 1556px 11px, 1200px 310px, 1563px 217px;
+  background-position: 0px 82px, 280px 16px, 0px 315px, 283px 230px, 1170px 38px, 1504px 0px, 1170px 326px, 1506px 212px;
 }
 .foto_people {
     width: 35%;
