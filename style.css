@@ -255,9 +255,25 @@ h2 {
 
 .fotos {
     display: flex;
+    justify-content: center;
     margin-bottom: 160px;
+  width: 100%;
+  min-height: 552px;
+  border: 1px solid;
+  
+  background-image: url(img/twain/bg_189.jpg),
+                    url(img/twain/bg_201.jpg),
+                    url(img/twain/bg_193.jpg),
+                    url(img/twain/bg_197.jpg),
+                    url(img/twain/bg_170.jpg),
+                    url(img/twain/bg_183.jpg),
+                    url(img/twain/bg_174.jpg),
+                    url(img/twain/bg_180.jpg);
+background-repeat: no-repeat;
+  background-size: 14%, 19%, 14%, 19%, 19%, 14%, 19%, 19%;
+  
+  background-position: 0px 60px, 280px 16px, 0px 273px, 283px 230px, 1200px 0px, 1556px 11px, 1200px 310px, 1563px 217px;
 }
-
 .foto_people {
     width: 35%;
     display: flex;
