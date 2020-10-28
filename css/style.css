@@ -839,7 +839,7 @@ fieldset {
     border: none;
 }
 
-.sign {
+.subs {
     font-size: 16px;
     color: #00cfae;
     margin: 0;
@@ -859,7 +859,7 @@ fieldset {
 .email::placeholder {
     display: block;
     padding: 5px;
-    word-break: breal-all;
+    word-break: break-all;
     font-family: 'lato-regular', 'arial', sans-serif;
     font-size: 16px;
     line-height: 1.2;
