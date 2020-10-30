@@ -13,7 +13,8 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-.container{
+
+.container {
     width: 1270px;
     margin: 0 auto;
     color: #ffffff;
@@ -161,6 +162,7 @@ h1 {
     margin: 5px auto;
     border: none;
 }
+
 .get:after {
     content: "";
     display: block;
@@ -175,14 +177,17 @@ h1 {
     min-height: 51px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
+
 .get:hover {
-    background-color: #ff6c00;
+    background-color: #fff;
     color: #81398b;
 }
+
 .get:active {
-    background-color:#e22028;
+    background-color: #e22028;
     color: #fff;
 }
+
 .arrow {
     font-size: 22px;
 }
@@ -228,7 +233,7 @@ h1 {
 }
 
 .сentral {
-        text-align: center;
+    text-align: center;
     width: 100%;
     margin: 170px auto 0 auto;
 }
@@ -237,6 +242,7 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
 h2 {
     font-family: 'dosis-bold', 'arial', sans-serif;
     font-size: 37px;
@@ -284,10 +290,10 @@ h2 {
     background-repeat: no-repeat;
     background-size: 14%, 19%, 14%, 19%, 17%, 16%, 17%, 16%;
     background-position: 0px 70px, 198px 20px,
-    0px 232px, 199px 171px,
-    825px 35px, 1064px 6px,
-    825px 238px, 1064px 160px;
-    }
+        0px 232px, 199px 171px,
+        825px 35px, 1064px 6px,
+        825px 238px, 1064px 160px;
+}
 
 .feedback {
     width: 25%;
@@ -330,6 +336,11 @@ h3 {
     line-height: 1.2;
     font-weight: 700;
     color: #fff;
+}
+
+.sing:hover {
+    background-color: #fff;
+    color: #2f53a3;
 }
 
 .sing .fab {
@@ -404,6 +415,11 @@ h3 {
     color: #fff;
     background-color: #81398b;
     margin: 0 auto;
+}
+
+.sub:hover {
+    color: #81398b;
+    background-color: #fff;
 }
 
 aside {
@@ -539,7 +555,8 @@ aside {
 
 .like {
     width: 30px;
-    height: 30px;;
+    height: 30px;
+    ;
     fill: #fff;
 }
 
@@ -672,7 +689,7 @@ aside {
 
 .circle-languages {
     width: 109px;
-    height:109px;
+    height: 109px;
     background-color: #fe4a5d;
 }
 
@@ -834,7 +851,8 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-.form{
+
+.form {
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -895,6 +913,7 @@ fieldset {
     color: #00cfae;
     border: 1px solid #00cfae;
 }
+
 .subscribe:active {
     background-color: #81398b;
     color: #fff;
@@ -916,7 +935,8 @@ fieldset {
     margin: 12px auto;
     padding: 0;
 }
-.meta-item{
+
+.meta-item {
     font-family: 'dosis-bold', 'arial', sans-serif;
     text-transform: uppercase;
     color: #2f1946;
@@ -925,6 +945,15 @@ fieldset {
     line-height: 21px;
     font-weight: 700;
 }
+
+.meta-item:hover {
+    color: #ff6c00;
+}
+
+.meta-item:active {
+    color: #e22028;
+}
+
 .s {
     text-transform: none;
 }
@@ -937,6 +966,11 @@ fieldset {
     margin: 0px 0 8px 0;
     padding: 0;
 }
+
+.flag:hover {
+    transform: scale(1.5)
+}
+
 hr {
     width: 585px;
     height: 1px;
