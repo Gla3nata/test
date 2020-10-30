@@ -132,7 +132,7 @@ nav {
 }
 
 .logo-img {
-    margin-top: 30px;
+    margin-top: 55px;
     width: 25%;
     height: 15.4%;
 }
@@ -160,7 +160,7 @@ h1 {
     color: #ffffff;
     outline: none;
     position: relative;
-    margin: 0 auto;
+    margin: 5px auto;
     border: none;
 }
 .get:after {
@@ -811,20 +811,20 @@ aside {
     content: "";
     display: block;
     position: absolute;
-    top: -20px;
-    left: -20px;
+    top: -15px;
+    left: -15px;
     color: white;
     text-align: center;
     border-radius: 50%;
-    width: 174px;
-    height: 174px;
+    width: 123px;
+    height: 123px;
     opacity: 0.3;
     border: 1px solid #fff;
 }
 
 .bubbles {
-    width: 61px;
-    height: 65px;
+    width: 40px;
+    height: 46px;
     fill: #ffffff;
 }
 
@@ -893,8 +893,14 @@ fieldset {
 }
 
 .subscribe:hover {
-    background-color: #fefefe;
+    background-color: #fff;
     color: #00cfae;
+    border: 1px solid #00cfae;
+}
+.subscribe:active {
+    background-color: #81398b;
+    color: #fff;
+    border: 1px solid #00cfae;
 }
 
 .meta {
@@ -930,12 +936,14 @@ fieldset {
 }
 
 .flags {
-    margin: -3px 0 30px 0;
-    padding: 0 0 0 0;
+    margin: 0px 0 8px 0;
+    padding: 0;
 }
-
-.copyright {
-
+hr {
+    width: 585px;
+    height: 1px;
+    background-color: #d3d3d3;
+    border-radius: 0.4px;
 }
 
 .copyright-txt {
