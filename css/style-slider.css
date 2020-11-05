@@ -1,0 +1,136 @@
+body {
+    margin: 0 auto;
+    background-color: #9b9b9b;
+    width: 1270px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+}
+
+.carusel-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 0 0 0;
+}
+
+.btn1 {
+    display: block;
+    margin: 30px;
+    border: none;
+    border-left: 2px solid #d3c1ad;
+    border-bottom: 2px solid #d3c1ad;
+    transform: rotate(45deg);
+}
+
+.btn2 {
+    display: block;
+    margin: 30px;
+    border: none;
+    border-top: 2px solid #d3c1ad;
+    border-right: 2px solid #d3c1ad;
+    transform: rotate(45deg);
+}
+
+.carusel-btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.carusel-btn:nth-of-type(1) {
+    margin: 0 50px 0 0;
+}
+
+.carusel-btn:nth-of-type(2) {
+    margin: 0 0 0 50px;
+}
+
+.link-btn {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 170px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid #736357;
+    min-height: 53px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    word-break: break-all;
+    background-color: #998675;
+    font-family: 'raleway-extrabold', 'arial', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    word-break: break-all;
+}
+
+.btn-link-txt {
+    margin: auto;
+}
+
+.link-btn:hover {
+    color: #d1d1d1;
+    background-color: #736357;
+}
+
+.link-btn:active {
+    color: #252525;
+    background-color: #d1d1d1;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.carusel-pagination {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+
+.carusel-pagination-item {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 0.5;
+    border: 2px solid transparent;
+    color: blue;
+}
+
+.carusel-pagination-item:hover {
+    background-color: transparent;
+    width: 11px;
+    height: 11px;
+    border: 2px solid #d3c1ad;
+    transform: scale(1.2);
+}
+
+.carusel-pagination-active {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-color: transparent;
+    border-radius: 50%;
+    opacity: 0.5;
+    border: 2px solid #d3c1ad;
+    color: blue;
+}
